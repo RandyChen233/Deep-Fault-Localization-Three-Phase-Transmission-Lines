@@ -1,3 +1,1 @@
-# Deep_Fault_Localization
-# three_phase_fault_detectoin
-# three_phase_fault_detectoin
+# Using a Deep RCNN network to localize LG fault in 3-phase power transmission line.
