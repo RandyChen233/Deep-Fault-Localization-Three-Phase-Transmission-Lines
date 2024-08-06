@@ -8,7 +8,8 @@ This repository contains the implementation and visualization of a Recurrent Con
 ![image](https://github.com/user-attachments/assets/e6c2dba8-6763-4e87-849e-99000349684c)
 
 To generate labeled training data, we randomly generate a pulse signal to control the switch on/off the three-phase fault:
-![image](https://github.com/user-attachments/assets/22eaf90f-2848-4034-8076-ce1a877b8471)
+![image](https://github.com/user-attachments/assets/04237ea8-a9e3-45f4-a1d1-d1cb2671c22a)
+
 
 
 ## Table of Contents
