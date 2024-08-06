@@ -20,6 +20,9 @@ This repository contains the implementation and visualization of a Recurrent Con
 To generate labeled training data, we randomly generate a pulse signal to control the switch on/off the three-phase fault:
 ![image](https://github.com/user-attachments/assets/04237ea8-a9e3-45f4-a1d1-d1cb2671c22a)
 
+I used a for-loop to vary the lengths of the distributed parameters line blocks to simulate the variable location of the three-phase faults. Each sample is run for 2 seconds, and within each sample, the three-phase faults are randomly triggered based on the pulse generator. The period for the pulse generator is set to 10 sampling times. 
+For more details regarding the parameters used in the Simulink models, please reach out to me.
+
 
 ## Model Architecture
 
