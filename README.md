@@ -2,7 +2,14 @@
 
 ## Overview
 
-This repository contains the implementation and visualization of a Recurrent Convolutional Neural Network (RCNN) designed for fault localization in 3-phase transmission lines. The model leverages convolutional layers for feature extraction, LSTM layers for capturing temporal dependencies, and fully connected layers for final output generation, including fault segmentation identification and fault localization tasks.
+This repository contains the implementation and visualization of a Recurrent Convolutional Neural Network (RCNN) designed for fault localization in 3-phase transmission lines. The model leverages convolutional layers for feature extraction, LSTM layers for capturing temporal dependencies, and fully connected layers for final output generation, including fault segmentation identification and fault localization tasks. Not however, that the voltage and current data (input signals) in this example are generated using a Simulink block. Two 3-phase sources are used as the power supply, and several Distributed Parameters Line blocks are used as the transmission lines; then, two three-phase faults are inserted into the overall system which are triggered based on external signals. Below is an overview of the Simulink block:
+
+
+![image](https://github.com/user-attachments/assets/e6c2dba8-6763-4e87-849e-99000349684c)
+
+To generate labeled training data, we randomly generate a pulse signal to control the switch on/off the three-phase fault:
+![image](https://github.com/user-attachments/assets/22eaf90f-2848-4034-8076-ce1a877b8471)
+
 
 ## Table of Contents
 
