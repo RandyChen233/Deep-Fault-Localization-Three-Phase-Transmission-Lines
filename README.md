@@ -21,7 +21,8 @@ To generate labeled training data, we randomly generate a pulse signal to contro
 ![image](https://github.com/user-attachments/assets/04237ea8-a9e3-45f4-a1d1-d1cb2671c22a)
 
 I used a for-loop to vary the lengths of the distributed parameters line blocks to simulate the variable location of the three-phase faults. Each sample is run for 2 seconds, and within each sample, the three-phase faults are randomly triggered based on the pulse generator. The period for the pulse generator is set to 10 sampling times. 
-For more details regarding the parameters used in the Simulink models, please reach out to me.
+For more details regarding the parameters used in the Simulink models, please reach out to me. 
+Note: the Simulink model is adapted from [this example](https://www.mathworks.com/help/dsp/ug/fault-detection-and-localization-in-three-phase-power-transmission.html) from the Simulink community
 
 
 ## Model Architecture
